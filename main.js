@@ -6,7 +6,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/Undangan-Nikah/',
         image: 'assets/images/photo1.jpg',
-        desc: 'Desain floral klasik yang abadi dengan sentuhan watercolor lembut.'
+        desc: 'Buat momen spesialmu lebih berkesan dengan undangan digital yang menggabungkan keindahan budaya tradisional.'
     },
     {
         id: 'traditional-essence-2',
@@ -15,7 +15,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/Undangan-Nikah-Jawa/',
         image: 'assets/images/photo2.jpg',
-        desc: 'Kesederhanan yang berbicara. Fokus pada tipografi elegan dan ruang bernafas.'
+        desc: 'Buat momen spesialmu lebih berkesan dengan undangan digital yang menggabungkan keindahan budaya tradisional.'
     },
     {
         id: 'elegant-minimalis-2',
@@ -24,7 +24,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/elegant-minimalis-2/',
         image: 'assets/images/photo3.jpg',
-        desc: 'Perpaduan emas dan navy untuk kesan pernikahan yang mewah dan eksklusif.'
+        desc: 'Kesederhanaan yang dirancang dengan makna.'
     },
     {
         id: 'Elegant Minimalis',
@@ -33,7 +33,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/elegant-minimalis-1/',
         image: 'assets/images/photo4.jpg',
-        desc: 'Nuansa bumi yang hangat, sangat cocok untuk pernikahan outdoor atau rustic.'
+        desc: 'Kesederhanaan yang dirancang dengan makna.'
     },
     {
         id: 'Fun Cute',
@@ -42,7 +42,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/undangan-fun-cut/',
         image: 'assets/images/photo5.jpg',
-        desc: 'Warna deep navy dengan ornamen floral putih yang kontras dan megah.'
+        desc: 'Rayakan momen bahagiamu dengan undangan yang manis dan penuh warna.'
     },
     {
         id: 'Clasic Vintage',
@@ -51,7 +51,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/undangan-clasic-vintage/',
         image: 'assets/images/photo6.jpg',
-        desc: 'Segar dan ceria dengan elemen daun Monstera dan warna-warna cerah.'
+        desc: 'Keindahan klasik yang tak lekang oleh waktu, Undangan web dengan sentuhan vintage, menghadirkan nuansa hangat, elegan, dan penuh makna.'
     },
     {
         id: 'Rustic',
@@ -60,7 +60,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/undangan-rustic/',
         image: 'assets/images/photo7.jpg',
-        desc: 'Sentuhan klasik yang hangat dengan aksen kertas tekstur dan font tulisan tangan.'
+        desc: 'Nuansa alami yang hangat dan menenangkan, Undangan web dengan sentuhan rustic, memadukan kesederhanaan alam dan keindahan yang autentik.'
     },
     {
         id: 'Modern lux 1',
@@ -69,7 +69,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/undangan-modren-lux1/',
         image: 'assets/images/photo8.jpg',
-        desc: 'Perpaduan warna navy gelap dan ornamen perak untuk kesan malam yang magis.'
+        desc: 'Kemewahan modern dalam tampilan yang bersih dan elegan.'
     },
     {
         id: 'Modern lux 2',
@@ -78,7 +78,7 @@ const templates = [
         price: 'Start From Rp 100.000',
         preview: 'https://erickprentinoep-lab.github.io/undangan-modrenlux2/',
         image: 'assets/images/photo9.jpg',
-        desc: 'Desain geometris berani untuk pasangan yang menyukai gaya kontemporer.'
+        desc: 'Kemewahan modern dalam tampilan yang bersih dan elegan.'
     }
 ];
 

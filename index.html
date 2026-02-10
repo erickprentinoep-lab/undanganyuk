@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UndanganYuk | Marketplace Undangan Online Premium</title>
+    <meta name="description"
+        content="Katalog undangan online premium dengan desain estetik dan animasi menarik. Pesan sekarang via WhatsApp.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Compiled Tailwind CSS -->
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-[#E2E6EA] text-dark font-sans selection:bg-primary selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 transition-all duration-300 p-4 md:p-6" id="navbar">
+        <div
+            class="max-w-7xl mx-auto flex justify-between items-center bg-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] backdrop-blur-xl border border-white/50 rounded-full px-6 md:px-8 py-3 transition-all duration-300 h-16 md:h-20">
+            <a href="#" class="flex items-center shrink-0">
+                <img src="assets/images/logo.png" alt="UndanganYuk"
+                    class="h-10 w-auto md:h-14 object-contain transition-transform duration-500 hover:scale-105">
+            </a>
+            <div class="hidden md:flex items-center space-x-12 font-semibold">
+                <a href="#katalog"
+                    class="text-secondary/80 hover:text-primary transition-all duration-300 hover:translate-y-[-1px]">Katalog</a>
+                <a href="#fitur"
+                    class="text-secondary/80 hover:text-primary transition-all duration-300 hover:translate-y-[-1px]">Fitur</a>
+                <a href="#cara-pesan"
+                    class="text-secondary/80 hover:text-primary transition-all duration-300 hover:translate-y-[-1px]">Cara
+                    Pesan</a>
+                <a href="https://wa.me/6287745734702"
+                    class="bg-secondary text-white px-8 py-3.5 rounded-full hover:bg-primary transition-all shadow-[0_10px_20px_-5px_rgba(127,85,57,0.3)] hover:shadow-[0_15px_30px_-5px_rgba(127,85,57,0.4)] transform hover:-translate-y-1 active:scale-95 text-sm uppercase tracking-wider font-bold">
+                    Konsultasi Gratis
+                </a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-menu-btn" class="md:hidden text-secondary p-2 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 8h16M4 16h16" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Drawer -->
+    <div id="mobile-menu"
+        class="fixed inset-0 z-[60] bg-white/95 backdrop-blur-xl translate-x-full transition-transform duration-500 md:hidden">
+        <div class="flex flex-col h-full p-8">
+            <div class="flex justify-between items-center mb-12">
+                <img src="assets/images/logo.png" alt="UndanganYuk" class="h-12 w-auto object-contain">
+                <button id="close-menu-btn" class="text-secondary p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex flex-col space-y-8 text-2xl font-serif font-bold text-secondary">
+                <a href="#katalog" class="mobile-link hover:text-primary transition-colors">Katalog</a>
+                <a href="#fitur" class="mobile-link hover:text-primary transition-colors">Fitur</a>
+                <a href="#cara-pesan" class="mobile-link hover:text-primary transition-colors">Cara Pesan</a>
+            </div>
+            <div class="mt-auto">
+                <a href="https://wa.me/6287745734702"
+                    class="block w-full text-center bg-secondary text-white py-5 rounded-2xl font-bold text-lg shadow-xl">
+                    Konsultasi Gratis
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Hero Section -->
+    <section
+        class="relative min-h-screen md:min-h-[90vh] flex items-center justify-center pt-32 pb-48 md:pt-48 md:pb-0 px-7">
+        <!-- Abstract Background Ornaments (Contained) -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-20 -left-20 w-80 h-80 bg-primary/10 rounded-full blur-[100px] animate-pulse"></div>
+            <div
+                class="absolute bottom-20 -right-20 w-96 h-96 bg-secondary/10 rounded-full blur-[120px] animate-pulse delay-700">
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10 text-center md:text-left">
+            <div class="space-y-8 animate-fade-up">
+                <div
+                    class="inline-block px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-semibold tracking-wide uppercase">
+                    Premium Digital Invitations
+                </div>
+                <h1 class="text-4xl sm:text-5xl md:text-7xl font-serif font-bold leading-[1.2] text-secondary">
+                    Abadikan Momen <br> <span class="text-primary italic">Paling Berkesan</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 max-w-lg leading-relaxed">
+                    Ubah undangan pernikahan konvensional menjadi pengalaman digital yang memukau bagi tamu Anda. Desain
+                    premium, interaktif, dan mudah dibagikan.
+                </p>
+                <div
+                    class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
+                    <a href="#katalog"
+                        class="bg-secondary text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-primary transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1 active:scale-95 flex items-center justify-center">
+                        Lihat Katalog
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#fitur"
+                        class="bg-white text-secondary border border-gray-200 px-8 py-4 rounded-2xl text-lg font-semibold hover:border-primary hover:text-primary transition-all shadow-sm hover:shadow-md flex items-center justify-center">
+                        Pelajari Fitur
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative animate-fade-up [animation-delay:200ms] lg:scale-125 xl:scale-[1.4] origin-center">
+                <!-- Main Mockup Image -->
+                <div
+                    class="relative z-10 rounded-[3rem] overflow-hidden shadow-[0_80px_160px_-20px_rgba(127,85,57,0.5)] animate-float border-[16px] border-white max-w-lg mx-auto md:max-w-none">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1469&auto=format&fit=crop"
+                        alt="Premium Invitation Preview" class="w-full h-auto">
+                </div>
+                <!-- Floating Element 1 -->
+                <div
+                    class="absolute top-0 right-0 md:-top-10 md:-right-10 bg-white p-4 md:p-6 rounded-3xl shadow-xl z-40 animate-float [animation-duration:5s] scale-75 md:scale-100 origin-top-right -translate-y-1/2 -translate-x-1/2">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-2xl">❤️
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400 font-bold uppercase tracking-wider">Dibuat Dengan</p>
+                            <p class="font-bold text-secondary">Penuh Cinta</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Floating Element 2 -->
+                <div
+                    class="absolute bottom-0 -right-2 md:-bottom-10 md:-left-10 bg-white/80 backdrop-blur-md p-4 md:p-6 rounded-3xl shadow-xl z-30 animate-float [animation-duration:7s] border border-white/50 scale-75 md:scale-100 origin-bottom-right translate-y-1/2">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex -space-x-2">
+                            <img src="https://i.pravatar.cc/40?img=1"
+                                class="w-10 h-10 rounded-full border-2 border-white" alt="UI">
+                            <img src="https://i.pravatar.cc/40?img=2"
+                                class="w-10 h-10 rounded-full border-2 border-white" alt="UI">
+                            <img src="https://i.pravatar.cc/40?img=3"
+                                class="w-10 h-10 rounded-full border-2 border-white" alt="UI">
+                        </div>
+                        <p class="font-medium text-sm text-secondary">Pilihan 1500+ <br> Pasangan Bahagia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="katalog" class="py-24 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 space-y-4">
+                <h2 class="text-4xl md:text-5xl font-serif font-bold text-secondary leading-tight">Desain Pilihan Anda
+                </h2>
+                <div class="w-24 h-1 bg-primary mx-auto rounded-full"></div>
+                <p class="text-gray-500 max-w-2xl mx-auto leading-relaxed">
+                    Pilih dari berbagai kategori desain premium yang telah kami kurasi khusus untuk menyempurnakan hari
+                    bahagia Anda.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="catalog-container">
+                <!-- Templates will be rendered here by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="fitur" class="py-24 px-6 bg-accent/30 overflow-hidden relative">
+        <div class="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-white to-transparent"></div>
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div class="order-2 lg:order-1 relative">
+                <div class="relative z-10 bg-white p-4 rounded-[2rem] shadow-2xl skew-y-3">
+                    <img src="assets/images/logo1.png" class="rounded-[1.5rem]" alt="Feature Presentation">
+                </div>
+                <div class="absolute inset-0 bg-primary/20 blur-[80px] -z-10 transform scale-75 overflow-hidden"></div>
+            </div>
+            <div class="space-y-10 order-1 lg:order-2">
+                <h2 class="text-4xl font-serif font-bold text-secondary">Kenapa Memilih Kami?</h2>
+                <div class="space-y-8">
+                    <div
+                        class="flex items-start space-x-5 group p-6 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-x-2">
+                        <div
+                            class="w-14 h-14 shrink-0 bg-primary/20 text-primary rounded-xl flex items-center justify-center text-2xl group-hover:bg-primary group-hover:text-white transition-colors">
+                            📱</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-secondary mb-2">Mobile Responsive</h3>
+                            <p class="text-gray-500 leading-relaxed">Tampilan undangan otomatis menyesuaikan dengan
+                                layar smartphone, tablet, maupun desktop.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-start space-x-5 group p-6 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-x-2">
+                        <div
+                            class="w-14 h-14 shrink-0 bg-primary/20 text-primary rounded-xl flex items-center justify-center text-2xl group-hover:bg-primary group-hover:text-white transition-colors">
+                            🤝</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-secondary mb-2">Request Sesuai Tema</h3>
+                            <p class="text-gray-500 leading-relaxed">Tamu atau pemesan dapat mengajukan permintaan tema
+                                undangan sesuai konsep, adat, atau gaya yang diinginkan.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-start space-x-5 group p-6 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-x-2">
+                        <div
+                            class="w-14 h-14 shrink-0 bg-secondary/20 text-secondary rounded-xl flex items-center justify-center text-2xl group-hover:bg-secondary group-hover:text-white transition-colors">
+                            🎵</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-secondary mb-2">Background Music</h3>
+                            <p class="text-gray-500 leading-relaxed">Tambahkan lagu romantis favorit Anda untuk menambah
+                                kemeriahan saat undangan dibuka.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-start space-x-5 group p-6 rounded-2xl hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-x-2">
+                        <div
+                            class="w-14 h-14 shrink-0 bg-primary/20 text-primary rounded-xl flex items-center justify-center text-2xl group-hover:bg-primary group-hover:text-white transition-colors">
+                            💌</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-secondary mb-2">RSVP & Ucapan</h3>
+                            <p class="text-gray-500 leading-relaxed">Tamu dapat melakukan konfirmasi kehadiran dan
+                                memberikan doa restu langsung dari website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cara Pesan Section -->
+    <section id="cara-pesan" class="py-24 px-6 bg-[#fdfcfb]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center space-y-4 mb-20 animate-fade-up">
+                <h2 class="text-4xl md:text-5xl font-serif font-bold text-secondary">Cara Pesan Undangan</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">Langkah mudah untuk mendapatkan undangan digital impian Anda
+                    dalam waktu singkat.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+                <!-- Step 1 -->
+                <div class="relative group reveal">
+                    <div
+                        class="bg-white p-10 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 border border-gray-100 flex flex-col items-center text-center space-y-6">
+                        <div
+                            class="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center text-3xl group-hover:scale-110 transition-transform">
+                            🎨</div>
+                        <h3 class="text-xl font-bold text-secondary">Pilih Design</h3>
+                        <p class="text-gray-500 text-sm">Pilih template favorit Anda dari katalog eksklusif kami.</p>
+                        <div class="absolute top-6 left-6 text-primary/20 text-6xl font-serif font-bold italic">01</div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative group reveal [animation-delay:100ms]">
+                    <div
+                        class="bg-white p-10 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 border border-gray-100 flex flex-col items-center text-center space-y-6">
+                        <div
+                            class="w-20 h-20 bg-secondary/10 rounded-3xl flex items-center justify-center text-3xl group-hover:scale-110 transition-transform">
+                            📝</div>
+                        <h3 class="text-xl font-bold text-secondary">Chat Adnin</h3>
+                        <p class="text-gray-500 text-sm">Lakukan Konsultasi dan Request Tema seuai kemauan melalui pesan
+                            WhatsApp.</p>
+                        <div class="absolute top-6 left-6 text-secondary/20 text-6xl font-serif font-bold italic">02
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative group reveal [animation-delay:200ms]">
+                    <div
+                        class="bg-white p-10 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 border border-gray-100 flex flex-col items-center text-center space-y-6">
+                        <div
+                            class="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center text-3xl group-hover:scale-110 transition-transform">
+                            💳</div>
+                        <h3 class="text-xl font-bold text-secondary">Pembayaran</h3>
+                        <p class="text-gray-500 text-sm">Lakukan konfirmasi pembayaran untuk memulai proses pengerjaan.
+                        </p>
+                        <div class="absolute top-6 left-6 text-primary/20 text-6xl font-serif font-bold italic">03</div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative group reveal [animation-delay:300ms]">
+                    <div
+                        class="bg-white p-10 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 border border-gray-100 flex flex-col items-center text-center space-y-6">
+                        <div
+                            class="w-20 h-20 bg-secondary/10 rounded-3xl flex items-center justify-center text-3xl group-hover:scale-110 transition-transform">
+                            ✨</div>
+                        <h3 class="text-xl font-bold text-secondary">Undangan Jadi</h3>
+                        <p class="text-gray-500 text-sm">Undangan siap disebarkan ke keluarga dan teman tercinta
+                            max 1x24 jam.</p>
+                        <div class="absolute top-6 left-6 text-secondary/20 text-6xl font-serif font-bold italic">04
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Showcase Section -->
+    <section id="showcase" class="py-24 px-6 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                <div class="space-y-4">
+                    <h2 class="text-4xl font-serif font-bold text-secondary">Follow Our Creative Journey</h2>
+                    <p class="text-gray-500 max-w-lg">Lihat bagaimana kami menghidupkan setiap mimpi pernikahan menjadi
+                        undangan digital yang tak terlupakan.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://www.instagram.com/undanganyuk_/" target="_blank" rel="noopener noreferrer"
+                        class="flex items-center space-x-2 bg-primary/10 text-primary px-6 py-3 rounded-2xl font-bold hover:bg-primary hover:text-white transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                        </svg>
+                        <span>@undanganyuk</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="https://www.instagram.com/undanganyuk_/" target="_blank" rel="noopener noreferrer"
+                    class="group relative aspect-square overflow-hidden rounded-3xl reveal">
+                    <img src="assets/images/ig1.png"
+                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        alt="Showcase 1">
+                    <div
+                        class="absolute inset-0 bg-secondary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="text-white font-bold">Lihat Karya</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/undanganyuk_/" target="_blank" rel="noopener noreferrer"
+                    class="group relative aspect-square overflow-hidden rounded-3xl reveal transition-delay-100">
+                    <img src="assets/images/ig2.jpg"
+                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        alt="Showcase 2">
+                    <div
+                        class="absolute inset-0 bg-secondary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="text-white font-bold">Lihat Karya</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/undanganyuk_/" target="_blank" rel="noopener noreferrer"
+                    class="group relative aspect-square overflow-hidden rounded-3xl reveal transition-delay-200">
+                    <img src="assets/images/ig3.jpg"
+                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        alt="Showcase 3">
+                    <div
+                        class="absolute inset-0 bg-secondary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="text-white font-bold">Lihat Karya</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/undanganyuk_/" target="_blank" rel="noopener noreferrer"
+                    class="group relative aspect-square overflow-hidden rounded-3xl reveal transition-delay-300">
+                    <img src="assets/images/ig4.jpg"
+                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        alt="Showcase 4">
+                    <div
+                        class="absolute inset-0 bg-secondary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="text-white font-bold">Lihat Karya</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white/90 py-16 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-12 border-b border-white/10 pb-12 mb-12">
+                <div class="col-span-2 space-y-6">
+                    <a href="#" class="text-3xl font-serif font-bold text-white tracking-widest">Undangan<span
+                            class="text-primary italic">Yuk</span></a>
+                    <p class="max-w-sm text-white/60 leading-relaxed">
+                        Membantu pasangan di seluruh Indonesia menciptakan undangan digital yang modern, estetik, dan
+                        berkesan tinggi untuk momen sekali seumur hidup.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/undanganyuk_" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-all group">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@undanganyuk"
+                            class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all group">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="space-y-6">
+                    <h4 class="text-lg font-bold text-white">Navigasi</h4>
+                    <ul class="space-y-4 text-white/60">
+                        <li><a href="#katalog" class="hover:text-primary transition-colors">Katalog Desain</a></li>
+                        <li><a href="#fitur" class="hover:text-primary transition-colors">Fitur Utama</a></li>
+                        <li><a href="#" class="hover:text-primary transition-colors">Testimoni</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-6">
+                    <h4 class="text-lg font-bold text-white">Hubungi Kami</h4>
+                    <p class="text-white/60">Medan, Indonesia</p>
+                    <a href="https://wa.me/628123456789"
+                        class="block text-primary font-bold hover:underline transition-all">WhatsApp: +62
+                        77-4573-4702</a>
+                    <p class="text-white/60">Email: erickprentinoep@gmail.com</p>
+                </div>
+            </div>
+            <div class="flex flex-col md:row justify-between items-center text-sm text-white/40">
+                <p>&copy; 2026 UndanganYuk Digital. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="https://www.instagram.com/erickesaputra_/" class="hover:text-white transition-colors">Made
+                        By Erick Esa Putra</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Premium Social Dock -->
+    <div class="fixed left-6 top-1/2 -translate-y-1/2 z-40 hidden lg:flex flex-col space-y-4">
+        <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-2 rounded-3xl shadow-2xl space-y-3">
+            <a href="https://www.instagram.com/undanganyuk_/" target="_blank" rel="noopener noreferrer"
+                class="w-12 h-12 flex items-center justify-center text-secondary hover:bg-primary hover:text-white rounded-2xl transition-all duration-300 group relative">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
+                <div
+                    class="absolute left-16 bg-white py-2 px-4 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-300 transform -translate-x-4 group-hover:translate-x-0 whitespace-nowrap">
+                    <span class="text-secondary font-bold text-sm">Follow Instagram</span>
+                </div>
+            </a>
+            <a href="https://www.tiktok.com/@undanganyuk"
+                class="w-12 h-12 flex items-center justify-center text-secondary hover:bg-black hover:text-white rounded-2xl transition-all duration-300 group relative">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                </svg>
+                <div
+                    class="absolute left-16 bg-white py-2 px-4 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-300 transform -translate-x-4 group-hover:translate-x-0 whitespace-nowrap">
+                    <span class="text-secondary font-bold text-sm">Follow TikTok</span>
+                </div>
+            </a>
+            <div class="w-full h-px bg-secondary/10"></div>
+            <a href="https://wa.me/6287745734702"
+                class="w-12 h-12 flex items-center justify-center text-white bg-green-500 hover:bg-green-600 rounded-2xl transition-all duration-300 group relative shadow-lg shadow-green-500/30">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16">
+                    <path
+                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg>
+                <div
+                    class="absolute left-16 bg-white py-2 px-4 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-300 transform -translate-x-4 group-hover:translate-x-0 whitespace-nowrap">
+                    <span class="text-secondary font-bold text-sm">Chat via WhatsApp</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

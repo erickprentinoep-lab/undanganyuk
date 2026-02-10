@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Smooth Scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Glassmorphism Navigation on Scroll */
+nav.scrolled {
+    @apply pt-2;
+}
+
+nav.scrolled div {
+    @apply bg-white shadow-2xl border-white/10;
+}
+
+
+/* Animations Trigger */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Custom Gradient Text */
+.text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary to-primary;
+}
+
+/* Button Hover Effects */
+.btn-premium {
+    @apply relative overflow-hidden transition-all duration-500;
+}
+
+.btn-premium::after {
+    content: '';
+    @apply absolute top-0 -left-[100%] w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-[-25deg] transition-all duration-500;
+}
+
+.btn-premium:hover::after {
+    @apply left-[100%];
+}
